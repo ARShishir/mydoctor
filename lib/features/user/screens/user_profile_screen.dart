@@ -16,9 +16,6 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
   final String userBio = "Flutter Developer • Health Tech Enthusiast\nDhaka, Bangladesh";
   final String profileImage = "https://avatars.githubusercontent.com/u/136100734?v=4";
 
-  final int posts = 342;
-  final int followers = 15420;
-  final int following = 389;
 
   final List<Map<String, dynamic>> _medicalDocs = const [
     {
@@ -155,17 +152,7 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
                                   height: 1.2,
                                 ),
                           ),
-                          const SizedBox(height: 10),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              _buildStat("Posts", posts),
-                              const SizedBox(width: 32),
-                              _buildStat("Followers", followers),
-                              const SizedBox(width: 32),
-                              _buildStat("Following", following),
-                            ],
-                          ),
+                          const SizedBox(height: 10),                         
                         ],
                       ),
                     ),
