@@ -288,15 +288,7 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
   }
 
   // বাকি সব ফাংশন আগের মতোই (এখানে শুধু প্রয়োজনীয় অংশ দেখানো হলো)
-  Widget _buildStat(String label, int value) {
-    return Column(
-      children: [
-        Text("$value", style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white)),
-        Text(label, style: const TextStyle(color: Colors.white70, fontSize: 13)),
-      ],
-    );
-  }
-
+ 
   Widget _buildGlassButton(String text, IconData icon, VoidCallback onTap) {
     return GestureDetector(
       onTap: onTap,
