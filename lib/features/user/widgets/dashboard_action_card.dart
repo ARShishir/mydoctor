@@ -1,4 +1,6 @@
 // lib/features/user/widgets/dashboard_action_card.dart
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import '../../../../core/constants/app_dimensions.dart';
 
